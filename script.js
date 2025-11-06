@@ -11,7 +11,7 @@ document.getElementById('shakebutton').addEventListener('click', () => {
 
   const actions = []
 
-  if (num & 1) actions.push({ name: 'wink', class: 'wink' });
+  if (num & 1) actions.push({ name: 'wink', class: 'wink' })
   if (num & 2) actions.push({ name: 'double blink', class: 'double-blink' })
   if (num & 4) actions.push({ name: 'close your eyes', class: 'close-eyes' })
   if (num & 8) actions.push({ name: 'jump', class: 'jump' })
