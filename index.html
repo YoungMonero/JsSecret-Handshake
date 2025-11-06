@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Secret Handshake Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1> Secret Handshake Generator</h1>
+        <p class="subtitle">Enter a number to reveal your secret handshake</p>
+
+        <div class="input-group">
+            <input type="number" id="numberinput" placeholder="Enter a number...">
+            <button id="shakebutton">Shake Hands</button>
+        </div>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
